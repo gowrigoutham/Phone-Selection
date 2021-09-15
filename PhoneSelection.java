@@ -12,38 +12,38 @@ public class PhoneSelection{
 		/***********************************************
 		 * input: letterInput and set to input.next and charAt(0)
 		 **********************************************/ 
-		char letterInput = input.next().charAt(0);
-		Character.toUpperCase(letterInput); 
+		char c = input.next().charAt(0);
+		char letterInput = Character.toUpperCase(c);
 		
 		if (letterInput == 'A' || letterInput == 'B' || letterInput == 'C'){
 		/*********************************************** 
 		* print/output the digit 2 that corresponds to the letterInput of A B C
 		**************************************************/
-			System.out.print("The digit: " + 2 + "corresponds to the letter " + letterInput);
+			System.out.print("The digit: " + 2 + " corresponds to the letter " + letterInput);
 		}
 			else if (letterInput == 'D' || letterInput == 'E'  || letterInput == 'F' ){
 		/*********************************************** 
 		* print/output the digit 3 that corresponds to the letterInput of D E F 
 		********************************************** */
-				System.out.print("The digit: " + 3 + "corresponds to the letter " + letterInput);
+				System.out.print("The digit: " + 3 + " corresponds to the letter " + letterInput);
 		}
 				else if (letterInput == 'G'  || letterInput == 'H' || letterInput == 'I' ){
 		/*********************************************** 
 		* print/output the digit 4 that corresponds to the letterInput of G H K
 		***********************************************/
-					System.out.print("The digit: " + 4 + "corresponds to the letter " + letterInput);
+					System.out.print("The digit: " + 4 + " corresponds to the letter " + letterInput);
 		}
 					else if (letterInput == 'J'  || letterInput == 'K'  || letterInput == 'L' ){
 		/*********************************************** 
 		* print/output the digit 5 that corresponds to the letterInput of J H K L
 		************************************************/
-						System.out.print("The digit: " + 5 + "corresponds to the letter " + letterInput); 
+						System.out.print("The digit: " + 5 + " corresponds to the letter " + letterInput); 
 		}
 						else if (letterInput == 'M' || letterInput == 'N' || letterInput == 'O'){
 		/*********************************************** 
 		* print/output the digit 6 that corresponds to the letterInput of M N O
 		**************************************************/
-							System.out.print("The digit: " + 6 + "corresponds to the letter " + letterInput);
+							System.out.print("The digit: " + 6 + " corresponds to the letter " + letterInput);
 		}
 							else if (letterInput == 'P' || letterInput == 'Q' || letterInput == 'R' || letterInput == 'S'){
 		/*********************************************** 
