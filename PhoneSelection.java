@@ -20,49 +20,49 @@ public class PhoneSelection{
 		/*
 		* print/output the digit 2 that corresponds to the letterInput of A B C
 		**************************************************/
-			System.out.print("The digit: " + 2 + " corresponds to the letter " + letterInput);
+			System.out.print("The digit: " + 2 + " corresponds to the letter " + letterInput + " on the telephone");
 		}
 			else if (letterInput == 'D' || letterInput == 'E'  || letterInput == 'F' ){
 		/*
 		* print/output the digit 3 that corresponds to the letterInput of D E F 
 		********************************************** */
-				System.out.print("The digit: " + 3 + " corresponds to the letter " + letterInput);
+				System.out.print("The digit: " + 3 + " corresponds to the letter " + letterInput + " on the telephone");
 		}
 				else if (letterInput == 'G'  || letterInput == 'H' || letterInput == 'I' ){
 		/*
 		* print/output the digit 4 that corresponds to the letterInput of G H K
 		***********************************************/
-					System.out.print("The digit: " + 4 + " corresponds to the letter " + letterInput);
+					System.out.print("The digit: " + 4 + " corresponds to the letter " + letterInput + " on the telephone");
 		}
 					else if (letterInput == 'J'  || letterInput == 'K'  || letterInput == 'L' ){
 		/*
 		* print/output the digit 5 that corresponds to the letterInput of J H K L
 		************************************************/
-						System.out.print("The digit: " + 5 + " corresponds to the letter " + letterInput); 
+						System.out.print("The digit " + 5 + " corresponds to the letter " + letterInput + " on the telephone"); 
 		}
 						else if (letterInput == 'M' || letterInput == 'N' || letterInput == 'O'){
 		/*
 		* print/output the digit 6 that corresponds to the letterInput of M N O
 		**************************************************/
-							System.out.print("The digit: " + 6 + " corresponds to the letter " + letterInput);
+							System.out.print("The digit " + 6 + " corresponds to the letter " + letterInput + " on the telephone");
 		}
 							else if (letterInput == 'P' || letterInput == 'Q' || letterInput == 'R' || letterInput == 'S'){
 		/*
 		* print/output the digit 7 that corresponds to the letterInput of P Q R S 
 		***********************************************/
-								System.out.print("The digit: " + 7 + " corresponds to the letter " + letterInput);
+								System.out.print("The digit: " + 7 + " corresponds to the letter " + letterInput + " on the telephone");
 		}
 								else if (letterInput == 'T' || letterInput == 'U' || letterInput == 'V'){
 		/*
 		* print/output the digit 8 that corresponds to the letterInput of T U V
 		*************************************************/
-									System.out.print("The digit: " + 8 + " corresponds to the letter " + letterInput);
+									System.out.print("The digit: " + 8 + " corresponds to the letter " + letterInput + " on the telephone");
 		}
 									else if (letterInput == 'W' || letterInput == 'X' || letterInput == 'Y' || letterInput == 'Z'){
 		/*
 		* print/output the digit 9 that corresponds to the letterInput of W X Y Z
 		*************************************************/
-										System.out.print("The digit: " + 9 + " corresponds to the letter " + letterInput);
+										System.out.print("The digit: " + 9 + " corresponds to the letter " + letterInput + " on the telephone");
 		}
 
 	}
